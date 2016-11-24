@@ -228,7 +228,6 @@ int main(void) {
             }
         }
         vf y = fc6.get(fc5.get_relu(fc4.get_relu(x3)));
-        // あってるか確認するとこー
         std::cout << tesi <<" ";
         std::cout << "["<<x2[0][0]<<" "<<x2[0][1]<<" "<<x2[0][2]<<", ... ,"<<x2[0][22]<<" "<<x2[0][23]<<" "<<x2[0][24]<<"]"<<std::endl;
         std::cout << "  ---" << argmax(y) << "---" << std::endl;
